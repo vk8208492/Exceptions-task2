@@ -16,7 +16,7 @@ public class ExceptionsValidator {
 
     public String validateHeight(String height) throws HeightExceptions {
         if ( Integer.parseInt(height) < MIN_HEIGHT || Integer.parseInt(height) < MAX_HEIGHT ) {
-            throw new HeightExceptions("Height" + height + "is height of" + MIN_HEIGHT +  MAX_HEIGHT + "!");
+            throw new HeightExceptions("Height" + height + "is height of" + height + "!");
         }
         return "Height" + height + "is OK!";
     }

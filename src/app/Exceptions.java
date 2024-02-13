@@ -9,10 +9,10 @@ public class Exceptions {
 
 
         ExceptionsProvider provider = new ExceptionsProvider();
-        String height = provider.getHeight();
+        String heights = provider.getHeight();
         ExceptionsHandler hadler = new ExceptionsHandler();
 
-        getOUtPut(hadler.HandleExceptions(height));
+        getOUtPut(hadler.HandleExceptions(heights));
 
         getOUtPut("Some code.");
     }
